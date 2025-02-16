@@ -24,7 +24,7 @@ else:
     next_month = int(sys.argv[4])  # The correct month
 
 # ✅ **Paths for ChromeDriver & Chrome Profile**
-chrome_driver_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+chrome_driver_path = "C:\Users\Administrator\Downloads\chrome-win64\chrome-win64\chrome.exe"
 chrome_profile_path ="C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome for Testing\\User Data\\Default"
 
 while True:  # **Loop to retry if reservation fails**
